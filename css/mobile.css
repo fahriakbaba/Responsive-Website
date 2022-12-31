@@ -1,0 +1,36 @@
+@media only screen and (max-width: 600px) {
+    body {
+     min-height: 100vh;
+    }
+
+    header {
+    flex-direction: column;
+    }
+
+    header ul {
+      margin-top: .7rem;
+      margin-bottom: .7rem;
+    }
+
+    .index-main h1, .index-main p {
+      text-align: center;
+    }
+
+    .index-form {
+      flex-direction: column; 
+      padding-top: 2%;
+      padding-bottom: 2%;
+    }
+
+    .index-main section:last-child {
+      flex-direction: column;
+    }
+
+    .index-main section:last-child div {
+      padding: 3% 12%;
+    }
+
+    footer {
+      position: static;
+    }
+  }
