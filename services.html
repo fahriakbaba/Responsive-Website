@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About Page || HTML5 and CSS3</title>
+    <title>Services Page || HTML5 and CSS3</title>
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/mobile.css" />
   </head>
@@ -19,21 +19,86 @@
       </ul>
     </header>
     <!-- Header End -->
-    
-      <section class="about-form">
-        <h3>subscribe to our newsletter</h3>
-        <form>
-          <input
-            class="index-form-text"
-            type="text"
-            placeholder="Enter Email..."
-            name="subscribe"
-            id="subscribe"
-          />
-          <button class="btn" type="submit">subscribe</button>
-        </form>
+
+    <!-- Main start -->
+    <section class="about-form">
+      <h3>subscribe to our newsletter</h3>
+      <form>
+        <input
+          class="index-form-text"
+          type="text"
+          placeholder="Enter Email..."
+          name="subscribe"
+          id="subscribe"
+        />
+        <button class="btn" type="submit">subscribe</button>
+      </form>
+    </section>
+    <main class="services-page">
+      <section>
+        <h3>services</h3>
+        <article>
+          <h4>website design</h4>
+          <p>
+            Web design refers to the design of websites that are displayed on
+            the internet. It usually refers to the user experience aspects of
+            website development rather than software development. Web design
+            used to be focused on designing websites for desktop browsers;
+            however, since the mid-2010s, design for mobile and tablet browsers
+            has become ever-increasingly important.
+          </p>
+          <span>Pricing: $1.000 - $3.000</span>
+        </article>
+        <article>
+          <h4>website maintenance</h4>
+          <p>
+            Website maintenance is the process of keeping a website up-to-date
+            and running smoothly as well as performing optimally. Website
+            maintenance includes tasks like ensuring all the links on your site
+            are working, regularly updating content, and fixing any broken
+            links. It also involves more general housekeeping tasks like backing
+            up your site regularly and monitoring your site's performance.
+          </p>
+          <span>Pricing: $250 per month</span>
+        </article>
+        <article>
+          <h4>website hoisting</h4>
+          <p>
+            When a hosting provider allocates space on a web server for a
+            website to store its files, they are hosting a website. Web hosting
+            makes the files that comprise a website (code, images, etc.)
+            available for viewing online. Every website you’ve ever visited is
+            hosted on a server.
+          </p>
+          <p>
+            The amount of space allocated on a server to a website depends on
+            the type of hosting. The main types of hosting are shared,
+            dedicated, VPS and reseller. They are differentiated by the kind of
+            technology used for the server, the level of management provided and
+            the additional services on offer.
+          </p>
+          <span>Pricing: $25 per month</span>
+        </article>
       </section>
-       
+      <form>
+        <h4>get a quote</h4>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" placeholder="Name" />
+        </div>
+        <div class="form-group">
+          <label for="email">email</label>
+          <input type="email" name="email" id="email" placeholder="Email" />
+        </div>
+        <div class="form-group">
+          <label for="name">message</label>
+          <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+        </div>
+        <button class="btn" type="submit">Send</button>
+      </form>
+    </main>
+    <!-- Main end -->
+
     <!-- Footer Start -->
     <footer>
       <p>Acme Web Design, Copyright<span>&copy;</span> 2022</p>

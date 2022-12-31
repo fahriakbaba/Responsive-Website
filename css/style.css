@@ -6,6 +6,7 @@
     list-style-type: none;
     text-decoration: none;
     box-sizing: border-box;
+    resize: none;
 }
 
 /* color */
@@ -228,3 +229,88 @@ main.about-us {
     border-radius: 4px; 
 }
 /* About Page - End */
+
+/* Services Page - Start */
+.services-page {
+    color: var(--headerBg);
+    padding: 3% 12%;
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    column-gap: 2rem;
+    grid-template-rows: 400px;
+}
+
+.services-page section {
+    padding-top: 8px;
+}
+
+.services-page section h3 {
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    margin-bottom: .5rem;
+}
+
+.services-page article {
+    background-color: #E7E6E8;
+    color: var(--headerBg);
+    margin-bottom: .5rem;
+    border-radius: 4px;
+    padding: .75rem 1.5rem;
+    width: 85%;
+}
+
+.services-page article:hover {
+    box-shadow: .5px .5px 5px var(--grayBg);
+}
+
+.services-page article h4 {
+    text-transform: capitalize;
+    margin-bottom: .4rem;
+}
+
+.services-page article p {
+    color: var(--grayBg);
+    line-height: 1.2rem;
+    text-align: justify;
+}
+
+.services-page article span {
+    font-size: .7rem;
+    margin-top: .4rem;
+}
+
+.services-page form {
+    color: var(--textWhite);
+    background-color: var(--headerBg);
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+.services-page form h4 {
+    text-transform: capitalize;
+    font-size: 1.2rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 2rem;
+}
+
+.form-group label {
+    text-transform: capitalize;
+}
+
+.form-group input, .form-group textarea {
+    padding: 4px 8px;
+}
+
+.form-group textarea {
+    margin-bottom: 8px;
+}
+
+.form-group button {
+    margin-top: 8px;
+}
+/* Services Page - End */
