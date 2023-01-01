@@ -155,6 +155,8 @@ main {
 
  .index-main section:last-child div p {
     color: var(--headerBg);
+    font-size: .9rem;
+    text-align: justify;
  }
 
 
@@ -221,7 +223,7 @@ main.about-us {
 
 .about-us section:last-child {
     width: 25%;
-    height: 200px;
+    height: 300px;
     border:  1px solid var(--headerBg);
     color: var(--textWhite);
     background-color: var(--headerBg);
@@ -256,7 +258,7 @@ main.about-us {
     margin-bottom: .5rem;
     border-radius: 4px;
     padding: .75rem 1.5rem;
-    width: 85%;
+    width: 100%;
 }
 
 .services-page article:hover {
